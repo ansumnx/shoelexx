@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media (max-width:580px) {
+    .nav{
+        background-color:#D51222;
+        height: 8vh;
+        width: 100vw;
+    
+
+    }
+    .nav h1{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .nav ul li a {
+        visibility: hidden;
+    }
+    .main{
+        width: 100vw;
+        height: 58vh;
+    }
+    .main .box{
+        background-image: url(photo-1542291026-7eec264c27ff\ \(1\).avif);
+        height: 65vh;
+    }
+    .box .wrk{  position: absolute;
+        top: 20px;
+
+    }
+    .box .wrk h1{
+        font-size: 10vw;
+      
+
+    }
+    .slider{
+        height: 100vh;
+        width: 100vw;
+        
+    }
+    .slid{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .slid img{
+        width: 150px;  
+    }
+    .coming h1{
+        font-size: 30px;
+    }   
+}
